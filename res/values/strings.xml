@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Title">CCTV Droid</string>
+    <string name="AddCamara">Añadir Cámara</string>
+    <string name="nombreCamara">Nombre Cámara</string>
+    <string name="ipCamara">IP - Hostname</string>
+    <string name="loginCamara">Login</string>
+    <string name="passwdCamara">Password</string>
+    <string name="Exit">Salir</string>
+    <string name="welcome">Bienvenido!</string>
+    <string name="Presentation">Pulse en el menú para agregar nuevas cámaras o para obtener la lista de las cámaras disponibles...</string>
+    <string name="tipoCamara">Tipo de Cámara</string>
+    <string name="controls">Controles</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal">
+	<LinearLayout 
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:layout_weight="1" android:background="#5b5b5b">
+		<es.cctvdroid.mjpg.MjpegView android:id="@+id/camera1"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:layout_weight="1" android:scaleType="fitXY"
+			android:layout_marginBottom="1px" android:layout_marginLeft="40px"
+			android:layout_marginRight="1px"/>
+		<es.cctvdroid.mjpg.MjpegView android:id="@+id/camera3"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:layout_weight="1" android:scaleType="fitXY"
+			android:layout_marginTop="1px" android:layout_marginLeft="40px"
+			android:layout_marginRight="1px"/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:layout_weight="1" android:background="#5b5b5b">
+		<es.cctvdroid.mjpg.MjpegView android:id="@+id/camera2"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:layout_weight="1" android:scaleType="fitXY"
+			android:layout_marginBottom="1px" android:layout_marginRight="40px"
+			android:layout_marginLeft="1px"/>
+		<es.cctvdroid.mjpg.MjpegView android:id="@+id/camera4"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:layout_weight="1" android:scaleType="fitXY"
+			android:layout_marginTop="1px" android:layout_marginLeft="1px"
+			android:layout_marginRight="40px"/>
+	</LinearLayout>
+</LinearLayout>

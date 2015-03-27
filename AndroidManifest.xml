@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="es.cctvdroid" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="10" />
+	
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	
+	<application android:icon="@drawable/camera" android:label="@string/Title">
+		<activity android:name=".gui.ListaCamarasActivity" android:label="@string/Title" android:gravity="center">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name=".gui.MjpgPlayerActivity" android:label="Live Video" android:gravity="center"></activity>
+
+		<activity android:name=".gui.AddCamaraActivity" android:label="Añadir Cámara" android:gravity="center"></activity>
+		
+		<activity android:name=".gui.MultivideoActivity" android:label="Multivideo" android:gravity="center"></activity>
+	
+	</application>
+</manifest>

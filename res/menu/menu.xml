@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="@drawable/ic_menu_quit" android:visible="true"
+		android:id="@+id/quit" android:enabled="true" android:title="Salir"
+		android:orderInCategory="3"></item>
+	<item android:icon="@drawable/ic_menu_add" android:visible="true"
+		android:id="@+id/add" android:enabled="true" android:title="Añadir Cámara"
+		android:orderInCategory="1"></item>
+	<item android:icon="@drawable/ic_menu_refresh" android:visible="true"
+		android:id="@+id/refresh" android:enabled="true" android:title="Obtener Cámaras"
+		android:orderInCategory="2"></item>
+	<item android:icon="@drawable/ic_menu_multivideox"
+		android:visible="true" android:id="@+id/multivideo" android:enabled="true"
+		android:title="Multivideo" android:orderInCategory="4"></item>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="@drawable/ic_menu_multivideo_1"
+		android:visible="true" android:id="@+id/visor1" android:enabled="true"
+		android:title="Visor 1" android:orderInCategory="1"></item>
+	<item android:icon="@drawable/ic_menu_multivideo_2"
+		android:visible="true" android:id="@+id/visor2" android:enabled="true"
+		android:title="Visor 2" android:orderInCategory="2"></item>
+	<item android:icon="@drawable/ic_menu_multivideo_3"
+		android:visible="true" android:id="@+id/visor3" android:enabled="true"
+		android:title="Visor 3" android:orderInCategory="3"></item>
+	<item android:icon="@drawable/ic_menu_multivideo_4"
+		android:visible="true" android:id="@+id/visor4" android:enabled="true"
+		android:title="Visor 4" android:orderInCategory="4"></item>
+</menu>
